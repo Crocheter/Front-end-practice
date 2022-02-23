@@ -69,10 +69,15 @@ header {
     margin-top: 0px;
     margin-left: 180px;
     position: absolute;
+    bottom: 330px;
+    left: 40px;
 }
 
 h3 {
-    font-weight: lighter;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
 }
 
 .second-text {
@@ -99,27 +104,9 @@ h3 {
 }
 
 footer {
-    justify-content: center;
-    width: 40px;
-    height: 5px;
-    border: 10px;
-    border-width: 40px solid var(--color-blue);
+    position: absolute;
+    width: 20px;
+    height: 2.5px;
+    bottom: 0px;
+    flex-wrap: wrap;
 }
-
-.green-rectangle {
-    background-color: var(--color-green);
-    border-width: 10px;
-}
-
-.red-rectangle {
-    background-color: #E41B0E;
-}
-
-.blue-rectangle {
-    background-color: var(--color-blue);
-}
-
-.yellow-rectangle {
-    background-color: var(--color-yellow);
-}
-
