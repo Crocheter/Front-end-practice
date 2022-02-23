@@ -17,6 +17,7 @@ body, html {
     background-image: url(./bgImage.png);
     background-position: center;
     background-repeat: no-repeat;
+    flex-wrap: wrap;
 
 }
 
@@ -54,6 +55,26 @@ header {
     font-weight: bold;
 }
 
+.main-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    margin-left: 80px;
+    margin-top: 60px;
+    line-height: 20px;
+}
+
+.up-curve {
+    margin-top: 0px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
 .second-text {
     color: var(--color-yellow);
 }
@@ -66,3 +87,39 @@ header {
     top: 190px;
     
 }
+
+.second-contact {
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+    position: static;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+footer {
+    justify-content: center;
+    width: 40px;
+    height: 5px;
+    border: 10px;
+    border-width: 40px solid var(--color-blue);
+}
+
+.green-rectangle {
+    background-color: var(--color-green);
+    border-width: 10px;
+}
+
+.red-rectangle {
+    background-color: #E41B0E;
+}
+
+.blue-rectangle {
+    background-color: var(--color-blue);
+}
+
+.yellow-rectangle {
+    background-color: var(--color-yellow);
+}
+
