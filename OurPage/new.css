@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-blue: #0938B1;
+    --color-yellow: #F2BD00;
+    --color-green: #00A124;
+}
+
+body, html {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./bgImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+}
