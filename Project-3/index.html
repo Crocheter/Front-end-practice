@@ -41,7 +41,7 @@
 
         </div>
 
-    <div id="showUp" style="display: block;">
+    <div id="showUp" style="display: none;">
         <i class="fa-solid fa-x" onclick="showNone()" class="close" title="Close Page"></i>
         <div class="overall">
         <div class="sign-up-page">
@@ -66,9 +66,9 @@
                     </div>
                     <button class="sign-up">Join us now</button>
                     <p class="alternate">Alternatively</p>
-                    <button class="google">Continue with Google</button>
+                    <button class="google"><i class="fa-brands fa-google" aria-hidden="true" style="color: #EA4335;"></i>    Continue with Google</button>
                     <span class="sign-in">Are you already a fellow?</span>
-                    <span class="log-in-link"><a href="#">Log in</a></span>
+                    <span class="log-in-link"><a href="#" onclick="showIn()">Log in</a></span>
                 </form>
             </div>
             
@@ -81,9 +81,7 @@
         <i class="fa-solid fa-x" onclick="showNonee()" class="close" title="Close Page"></i>
         <div class="overall">
             <div class="login-page">
-                <p class="sign-up-header">
                     <h1>Welcome back, Fellow!</h1>
-                </p>
                 <form action="">
                     <div class="form-group">
                         <label class="Email">Email Address</label>
@@ -92,13 +90,13 @@
                     <div class="form-group">
                         <label class="Password">Password</label>
                         <input type="text" class="form-control" placeholder="Create password">
-                        <label for=""><a href="#">Forgot Password?</a></label>
+                        <label for="" class="forgot"><a href="#">Forgot Password?</a></label>
                     </div>
                     <button class="login">Log In</button>
                     <p class="alternate">Alternatively</p>
                     <button class="google">Continue with Google</button>
-                    <p class="new">Not a fellow? <a href="#">Join us</a></p>
-                    <a href="#">Forgot Password</a>
+                    <p class="new">Not a fellow? <a href="#" onclick="showUp()">Join us</a></p>
+                    <div class="forgotten"><a href="#" >Forgot Password?</a></div>
                 </form>
             </div>
         </div>
