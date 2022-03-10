@@ -42,9 +42,9 @@
 
         </div>
 
-        <div class="mobile-buttons" >
-            <button class="mobileUp" onclick="showUp()">Join Us</button>
-            <button class="mobileIn" onclick="showIn()">Log In</button>
+        <div class="mobile-buttons">
+            <button class="mobileUp" onclick="join()">Join Us</button>
+            <button class="mobileIn" onclick="back()">Log In</button>
         </div>
 
     <div id="showUp" style="display: none;">
@@ -130,6 +130,16 @@
             document.getElementById('showIn').style.display='none';
             
         }
+
+        function join() {
+            document.getElementById('showUp').style.display='block';
+        }
+
+        function back() {
+            document.getElementById('showIn').style.display='block';
+            
+        }
+
     </script>
 </body>
 </html>
