@@ -45,13 +45,15 @@ ul{
     margin-right: 50px;
     flex-direction: row;
     align-items: flex-start;
+    margin-top: 11px;
 }
 
 ul li button {
     margin-left: 50px;
+    margin-top: -21px;
     background-color: var(--color-blue);
     width: 100px;
-    height: 25px;
+    height: 33px;
     border-style: none;
     border-top: 0px;
     color: var(--colour-white);
@@ -76,20 +78,22 @@ main {
 }
 
 .hero img {
-    width: 100%;
+    width: 95%;
     height: 550px;
     position: absolute;
-    left: 620px;
+    left: 650px;
     top: 60px;
 }
 
 article {
     width: 450px;
+    color: #2C2C2C;
 }
 
 article h1 {
     font-size: 35px;
     font-weight: 700;
+    margin-top: 48px;
 }
 
 article p {
@@ -103,13 +107,14 @@ article p {
     z-index: 1;
 }
 
-.in {
+.in, .mobileIn{
     background-color: var(--colour-white);
     border-color: var(--color-blue);
     height: 40px;
     width: 110px;
     box-shadow: none;
     margin-right: 25px;
+    margin-top: 43px;
 }
 
 .in a {
@@ -120,7 +125,7 @@ article p {
 
 .first-timer {
     height: 40px;
-    width: 110px;
+    width: 180px;
     margin-right: 50px;
     background-color: var(--color-blue);
     box-shadow: 5px 10px 20px rgba(9, 56, 177, 0.15);
@@ -130,9 +135,9 @@ article p {
 
 .chats {
     position: absolute;
-    width: 300px;
+    width: 242px;
     height: 80px;
-    left: 45px;
+    left: 9px;
     top: 500px;
     background: #FAFAFA;
     border: 2px solid #F2BD00;
@@ -147,8 +152,14 @@ article p {
 
 .chats img {
     display: inline;
-    padding-left: 0px;
+    padding-left: 15px;
+    margin-right: 10px;
+    margin-left: 1px;
     width: 50px;
+}
+
+.menu {
+    display: none;
 }
 
 .fa-x {
@@ -159,6 +170,10 @@ article p {
     border-radius: 50%;
     left: 950px;
     box-shadow: 0px 0px 27.5218px 1.89806px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-buttons {
+    display: none;
 }
 
 .sign-up-page {
@@ -227,7 +242,7 @@ article p {
         font-size: 10px;
     }
 
-    .sign-up, .login {
+    .sign-up, .login, .mobileUp {
         background-color: var(--color-blue);
         color: var(--colour-white);
         box-shadow: 5px 10px 20px rgba(9, 56, 177, 0.15);
@@ -357,4 +372,67 @@ article p {
         nav {
             width: 467px;
         }
+    }
+
+    @media only screen and (max-width: 360px) {
+        
+        
+        nav {
+            width: 484px;
+        }
+
+        nav label {
+            margin-left: 85px;
+        }
+
+        .menu {
+            display: block;
+            margin-top: 10px;
+            margin-left: 20px;
+            font-size: 25px;
+            color: #000000;
+
+        }
+
+        .questions {
+            color: #000000;
+        }
+
+        .hero img {
+            top: 19px;
+            left: 13px;
+            width: 369px;
+            height: 432px;
+        }
+
+        article {
+            margin-top: 470px;
+            width: 435px;
+        }
+
+        article p {
+            margin-top: 29px;
+            font-size: 20px;
+        }
+
+        .first-timer {
+            display: block;
+            top: 500px;
+        }
+
+        .mobile-buttons {
+            display: block;
+            top: 100px;
+            margin-top: 717px;
+            margin-left: -408px;
+        }
+
+        .mobile-buttons .mobileIn {
+            width: 348px;
+        }
+
+        .in, .first-timer {
+            display: none;
+        }
+
     }
