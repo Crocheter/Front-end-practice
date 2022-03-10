@@ -427,12 +427,69 @@ article p {
             margin-left: -408px;
         }
 
+        .mobile-buttons{
+            cursor: pointer;
+        }
+
         .mobile-buttons .mobileIn {
             width: 348px;
+            margin-bottom: 10px;
         }
 
         .in, .first-timer {
             display: none;
+        }
+
+        .fa-x {
+            left: 378px;
+        }
+
+        .side-menu {
+            border: 2px solid white;
+            background-color: var(--colour-white);
+            width: 616px;
+            height: 920px;
+            box-shadow: 0px 0px 27.5218px 1.89806px rgba(0, 0, 0, 0.15);
+            z-index: 2;
+            top: 10px;
+            margin-left: -481px;
+            margin-top: -50px;
+            padding-left: 55px;
+            padding-top: 25px;
+            font-size: 18px;
+        }
+
+        .side-menu .first {
+            font-weight: 700;
+            color: var(--color-blue);
+            font-size: 20px;
+
+        }
+
+        .side-menu .first span {
+            font-weight: 400;
+        }
+
+        .side-menu .first .company {
+            margin-bottom: 38px;
+
+        }
+
+        .first-line, .second-line {
+            height: 2px;
+            background-color: rgba(44, 44, 44, 0.3);
+            width: auto;
+            content: "";
+            margin-bottom: 45px;
+            margin-left: -58px;
+        }
+
+        .second-line {
+            margin-top: 37px;
+        }
+
+        .copyright {
+            font-size: 9px;
         }
 
     }

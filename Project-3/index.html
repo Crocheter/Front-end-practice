@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav>
-            <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            <div class="menu"><i class="fa-solid fa-bars" onclick="menu()"></i></div>
             <label for="logo"><span>Bits</span>Please</label>
             <ul>
                 <li class="questions">FAQ</li>
@@ -43,8 +43,8 @@
         </div>
 
         <div class="mobile-buttons">
-            <button class="mobileUp" onclick="join()">Join Us</button>
-            <button class="mobileIn" onclick="back()">Log In</button>
+            <button class="mobileUp" onclick="showUp()">Join Us</button>
+            <button class="mobileIn" onclick="showIn()">Log In</button>
         </div>
 
     <div id="showUp" style="display: none;">
@@ -107,6 +107,29 @@
             </div>
         </div>
     </div>
+
+    <div class="side-menu" id="menu" style="display: none;">
+        <i class="fa-solid fa-x" onclick="closed()" class="close" title="Close Page"></i>
+        <section class="first">
+            <p class="company">Bits<span>Please</span></p>
+            <p>Join Us</p>
+            <p>Log In</p>
+        </section>
+        <div class="first-line"></div>
+        <section>
+            <p>Product Management</p>
+            <p>Product Design</p>
+            <p>UI/UX Design</p>
+            <p>Front-End Development</p>
+            <p>Back-End Development</p>
+        </section>
+        <div class="second-line"></div>
+        <section>
+        <p>FAQ</p>
+        <p>About Us</p>
+        <p class="copyright">BitPlease 2022. All right reserved</p>
+        </section>
+    </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -131,13 +154,13 @@
             
         }
 
-        function join() {
-            document.getElementById('showUp').style.display='block';
+        function menu() {
+            document.getElementById('menu').style.display='block';
+            
         }
 
-        function back() {
-            document.getElementById('showIn').style.display='block';
-            
+        function closed() {
+            document.getElementById('menu').style.display='none';
         }
 
     </script>
