@@ -190,3 +190,44 @@ header span {
         transform: scaleX(-1);
     }
 }
+
+@media only screen and (max-width: 540px) {
+
+    body{
+        background-size: 368px, auto;
+    }
+
+    header{
+        font-size: 28px;
+    }
+
+    .main-area {
+        margin-left: 36px;
+        margin-top: 199px;
+    }
+
+    .main-area h1 {
+        font-size: 22px;
+    }
+
+    .sign-container {
+        width: 90%;
+    }
+
+    .signup-form input {
+        width: 233px;
+    }
+
+    .signup-form button {
+        width: 231px;
+    }
+
+    .second-part button {
+        margin-top: 17px;
+        margin-left: 20px;
+        width: 107px;
+        height: 44px;
+        font-size: 10px;
+    }
+
+}

@@ -51,6 +51,7 @@ header span {
     color: #000000;
     box-shadow: 0px 0px 27.5218px 1.89806px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    font-weight: 600;
       
 
 }
@@ -215,5 +216,17 @@ header h1 {
 
     .second-part {
         margin-left: -7px;
+    }
+
+    .form-group label {
+        font-size: 13px;
+    }
+
+    .login-form input {
+        font-size: 13px;
+    }
+
+    .login-form button a {
+        margin-left: 1px;
     }
 }
