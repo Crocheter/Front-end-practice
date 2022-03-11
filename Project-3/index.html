@@ -33,8 +33,8 @@
                 learners and resources to help you achieve your goals. </p>
             </article>
             <div class="hero"><img src="./img/Hero Sectio Image.png" alt="Tech image"></div>
-            <button class="in" onclick="showIn()"><a href="#">Sign In</a></button>
-            <button class="first-timer" onclick="showUp()">Join us now</button>
+            <button class="in" onclick="showIn()"><a href="#"><span class="desktop">Sign In</span> <span class="deskTwo">Log In</span></a></button>
+            <button class="first-timer" onclick="showUp()"><span class="desktop">Join us now</span><span class="deskTwo">Join Us</span></button>
             <button class="chats">
                 <div><img src="./img/heroicons.png" alt=""></div>
                 We know you want to chat, what is it about?
@@ -42,7 +42,7 @@
 
         </div>
 
-        <div class="mobile-buttons">
+        <div class="mobile-buttons" style="display: none;">
             <button class="mobileUp" onclick="showUp()">Join Us</button>
             <button class="mobileIn" onclick="showIn()">Log In</button>
         </div>
@@ -67,7 +67,8 @@
                     </div>
                     <div class="form-group">
                         <label class="Password">Password</label>
-                        <input type="password" class="form-control" placeholder="Create password">
+                        <input type="password" class="form-control" placeholder="Create password" 
+                        style="background-image: url(img/eye.png); background-repeat: no-repeat; background-position: right;">
                         <label class="note">Pasword must have a special character.</label>
                     </div>
                     <button class="sign-up">Join us now</button>
@@ -100,7 +101,9 @@
                     </div>
                     <button class="login">Log In</button>
                     <p class="alternate">Alternatively</p>
-                    <button class="google">Continue with Google</button>
+                    <button class="google">
+                        <i class="fa-brands fa-google" aria-hidden="true" style="color: #EA4335;" target="_blank"></i>
+                        Continue with Google</button>
                     <p class="new">Not a fellow? <a href="#" onclick="showUp()">Join us</a></p>
                     <div class="forgotten"><a href="#" >Forgot Password?</a></div>
                 </form>

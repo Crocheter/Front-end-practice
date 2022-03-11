@@ -107,7 +107,7 @@ article p {
     z-index: 1;
 }
 
-.in, .mobileIn{
+.in /*.mobileIn*/{
     background-color: var(--colour-white);
     border-color: var(--color-blue);
     height: 40px;
@@ -116,6 +116,11 @@ article p {
     margin-right: 25px;
     margin-top: 43px;
 }
+
+.in .deskTwo, .first-timer .deskTwo{
+    display: none;
+}
+
 
 .in a {
     text-decoration: none;
@@ -242,7 +247,7 @@ article p {
         font-size: 10px;
     }
 
-    .sign-up, .login, .mobileUp {
+    .sign-up, .login /*.mobileUp*/ {
         background-color: var(--color-blue);
         color: var(--colour-white);
         box-shadow: 5px 10px 20px rgba(9, 56, 177, 0.15);
@@ -408,6 +413,7 @@ article p {
         article {
             margin-top: 470px;
             width: 435px;
+            margin-bottom: 108px;
         }
 
         article p {
@@ -416,11 +422,10 @@ article p {
         }
 
         .first-timer {
-            display: block;
-            top: 500px;
+            margin-top: -96px;
         }
 
-        .mobile-buttons {
+        /*.mobile-buttons {
             display: block;
             top: 100px;
             margin-top: 717px;
@@ -434,10 +439,19 @@ article p {
         .mobile-buttons .mobileIn {
             width: 348px;
             margin-bottom: 10px;
+        }*/
+
+        .first-timer, .in {
+            display: block;
+            width: 372px;
         }
 
-        .in, .first-timer {
+        .in .desktop, .first-timer .desktop{
             display: none;
+        }
+
+        .in .deskTwo, .first-timer .deskTwo{
+            display: inline-block;
         }
 
         .fa-x {
@@ -492,4 +506,25 @@ article p {
             font-size: 9px;
         }
 
+        .sign-up-page, .login-page {
+            margin-left: -353px;
+            width: 482px;
+            height: 865px;
+            margin-top: 44px;
+            box-shadow: none;
+        }
+
+        #showUp .fa-x, #showIn .fa-x {
+            display: none;
+        }
+
+        .sign-up-page .login, .login-page .login {
+            margin-left: 19px;
+        }
+
+        .sign-up-page .google, .login-page .google {
+            margin-left: 31px;
+        }
+
+        
     }
