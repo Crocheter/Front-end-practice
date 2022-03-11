@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --colour-light-blue: #F0F4FF;
+    --colour-white: #FFFFFF;
+    --color-blue: #0938B1;
+
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    background-image: url(img/BgProtype.png), url(img/BgRectangle.png), url(img/SmallRectangle.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover, cover, ;
+
+}
