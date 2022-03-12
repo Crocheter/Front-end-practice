@@ -168,7 +168,7 @@ header span {
 @media only screen and (max-width: 540px){
 
     body {
-        background-image: url(./img/phoneFrame.png);
+        background-image: url(./img/PhoneBg.png);
         background-size: 540px, auto;
     }
  
@@ -232,7 +232,7 @@ header span {
 
     .circle {
         transform: rotate(90deg);
-        margin-top: 105px;
+        margin-top: -4px;
         width: 72px;
         margin-left: 55px;
     }

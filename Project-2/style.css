@@ -169,7 +169,7 @@ header h1 {
 @media only screen and (max-width: 540px){
 
    body {
-       background-image: url(./img/phoneFrame.png);
+       background-image: url(./img/PhoneBg.png);
        background-size: 400px, auto;
    }
 
@@ -238,8 +238,9 @@ header h1 {
 
     .second-part img {
         transform: rotate(90deg);
-        margin-top: 2px;
+        margin-top: -4px;
         width: 86px;
         margin-left: 116px;
     }
+
 }
