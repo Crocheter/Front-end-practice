@@ -144,7 +144,8 @@ header h1 {
 
 .second-part a {
     font-size: 11px;
-    margin-top: 15px;
+    font-weight: 600;
+    margin-top: 8px;
     display: block;
     color: var(--colour-blue);
     text-decoration: none;
@@ -158,6 +159,11 @@ header h1 {
     
     color: var(--colour-grey);
     
+}
+
+.second-part img {
+    margin-right: -820px;
+    margin-top: -779px;
 }
 
 @media only screen and (max-width: 540px){
@@ -228,5 +234,12 @@ header h1 {
 
     .login-form button a {
         margin-left: 1px;
+    }
+
+    .second-part img {
+        transform: rotate(90deg);
+        margin-top: 2px;
+        width: 86px;
+        margin-left: 116px;
     }
 }

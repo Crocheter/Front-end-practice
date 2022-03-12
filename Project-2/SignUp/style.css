@@ -187,11 +187,11 @@ header span {
  
     .circle {
         display: block;
-        transform: scaleX(-1);
+        transform: rotate(90deg);
     }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 360px) {
 
     body{
         background-size: 368px, auto;
@@ -228,6 +228,13 @@ header span {
         width: 107px;
         height: 44px;
         font-size: 10px;
+    }
+
+    .circle {
+        transform: rotate(90deg);
+        margin-top: 105px;
+        width: 72px;
+        margin-left: 55px;
     }
 
 }
