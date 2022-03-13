@@ -170,16 +170,16 @@ header h1 {
 
    body {
        background-image: url(./img/PhoneBg.png);
-       background-size: 400px, auto;
+       background-size: 100%;
    }
 
    header h1 {
-    margin-top: 308px;
-    margin-left: 71px;
+    margin-top: 206px;
+    margin-left: 52px;
    }
 
    .login-container {
-       margin-left: 26px;
+       margin-left: 62px;
    }
 
    .second-part {
@@ -191,9 +191,20 @@ header h1 {
     margin-left: 53px;
 }
 
-   .circle {
-       display: block;
-       transform: scaleX(-1);
+.second-part img {
+    transform: rotate(90deg);
+    margin-top: -4px;
+    width: 86px;
+    margin-left: 116px;
+    display: block;
+}
+
+   .login-form button {
+    width: 237px;
+   }
+
+   .second-part button {
+       margin-left: -72px;
    }
 }
 
