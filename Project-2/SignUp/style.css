@@ -238,3 +238,67 @@ header span {
     }
 
 }
+
+@media only screen and (max-width: 450px) {
+
+    body{
+        background-size: 100%;
+    }
+
+    header{
+        font-size: 28px;
+    }
+
+    .main-area {
+        margin-left: 36px;
+        margin-top: 199px;
+    }
+
+    .main-area h1 {
+        font-size: 22px;
+        margin-bottom: -17px;
+        margin-left: 25px;
+        margin-top: 227px;
+        font-weight: 600;
+    }
+
+    .sign-container {
+        width: 90%;
+        height: 470px;
+        margin-left: 2px;
+    }
+
+    .signup-form {
+        width: 333px;
+        margin-left: 22px;
+        margin-top: 48px;
+    }
+
+    .signup-form input {
+        width: 271px;
+    }
+
+    .signup-form button {
+        width: 270px;
+        margin-top: 14px;
+    }
+
+    .second-part button {
+        margin-top: 17px;
+        margin-left: 54px;
+        width: 107px;
+        height: 44px;
+        font-size: 10px;
+    }
+
+    .circle {
+        transform: rotate(90deg);
+        margin-top: -4px;
+        width: 72px;
+        margin-left: 55px;
+    }
+
+    .bottom-links {
+        margin-top: 31px;
+    }
+}

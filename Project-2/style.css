@@ -186,6 +186,11 @@ header h1 {
        margin-left: 43px;
    }
 
+   .login-container {
+    width: 70%;
+    margin-left: 53px;
+}
+
    .circle {
        display: block;
        transform: scaleX(-1);
